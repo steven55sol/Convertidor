@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="contador.php" method="POST">
+        <h1>Convertidor de Monedas</h1>
+        <label for="">Cantidad en soles:</label>
+        <input type="text" name="cantidad">
+        <label for="">Monedas</label>
+        <select name="monedas" id="">
+            <option value="Usd">Dolar</option>
+            <option value="Euro">Euro</option>
+        </select>
+        <input type="submit" class="btn-convertir" value="Convertir">
+    </form>
+</body>
+</html>
